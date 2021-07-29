@@ -1,0 +1,13 @@
+﻿post Produto
+put Produto (id)
+
+get Produto (id)
+get Produtos
+
+Produto
+	código (id) int
+	descricao varchar
+	estoque int
+	preco decimal
+
+banco in-memory
